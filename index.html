@@ -14,8 +14,8 @@
 <body>
     <header>
         <!-- nav bar start -->
-        <section class="container">
-            <nav class="navbar navbar-expand-lg bg-light">
+        <section class="container fixed-top">
+            <nav class="navbar navbar-expand-lg bg-light ">
                 <div class="container-fluid">
                     <a class="navbar-brand fs-2 fw-bold text-primary" href="#">Pro-Code</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -29,19 +29,19 @@
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Courses</a>
+                                <a class="nav-link" href="#courses">Courses</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Deals</a>
+                                <a class="nav-link" href="#deals">Deals</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Success</a>
+                                <a class="nav-link" href="#success">Success</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
+                                <a class="nav-link" href="#about">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Register</a>
+                                <a class="nav-link" href="#register">Register</a>
                             </li>
                         </ul>
                         <button class="btn btn-outline-primary px-4" type="submit">Register</button>
@@ -105,7 +105,8 @@
         <!-- slides end -->
     </header>
     <main>
-        <section class="container mt-5">
+        <!-- main section start -->
+        <section class="container mt-5" id="courses">
             <div class="text-center">
                 <h1>Discover Our Popular <br> Courses</h1>
                 <p>Here some of our online courses . We hope you will enjoy . Lorem ipsum dolor sit amet consectetur
@@ -235,7 +236,7 @@
                 <button class="btn btn-primary">See More Courses</button>
             </div>
         </section>
-        <section class="container mt-5">
+        <section class="container mt-5" id="deals">
             <div class="card mb-3">
                 <div class=" row g-0">
                     <div class="col-md-4">
@@ -272,7 +273,7 @@
                 </div>
             </div>
         </section>
-        <section class="container mt-5">
+        <section class="container mt-5" id="register">
             <div class=" bg-info d-flex justify-content-center align-items-center p-5 justify-content-between">
                 <div class="text-white">
                     <h2 class="fw-bold">Ready To Join</h2><br>
@@ -325,7 +326,7 @@
                 </div>
             </div>
         </section>
-        <section class="container mt-5" s>
+        <section class="container mt-5" id="success">
             <h2>Meet Our Succesful <br> students</h2>
             <p>Its a long established fact that a reader will be distracted by
                 the readable content of a
@@ -431,7 +432,7 @@
                 </div>
             </div>
         </section>
-        <section class="container mt-5">
+        <section class="container mt-5" id="about">
             <div class="text-center">
                 <h2>Frequently Asked Questions</h2>
                 <p>Its a long established fact that a reader will be distracted by
@@ -518,6 +519,7 @@
         </section>
     </main>
     <!-- main end -->
+    <!-- footer -->
     <footer class="bg-dark text-white p-5 mt-5">
         <div class="text-center mt-3">
             <h3 class="fw-bold">Pro-code</h3>
@@ -533,6 +535,7 @@
         </div>
         <p class="text-center">All right reserved © 2022 | Nasimur Rahman</p>
     </footer>
+    <!-- footer end -->
 
     <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
